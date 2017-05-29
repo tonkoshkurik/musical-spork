@@ -68,11 +68,13 @@ return [
               'root'   => storage_path('backups'), // that's where your backups are stored by default: storage/backups
           ],
 
-    ],
-
-    'uploads' => [
+        'uploads' => [
             'driver' => 'local',
             'root' => public_path('uploads'),
         ],
+
+
+    ],
+
 
 ];
